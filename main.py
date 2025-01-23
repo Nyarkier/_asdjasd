@@ -12,6 +12,7 @@ class RestaurantMenu:
        print("Menu Items:")
        for item, price in self.menu_items.items():
           print (f"{item}: ${price:.2f}")
+
     def main():
         menu = RestaurantMenu()
         # Add initial menu items
